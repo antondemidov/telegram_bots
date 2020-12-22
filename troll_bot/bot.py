@@ -25,7 +25,7 @@ phrase_list = [
 
 @bot.message_handler(commands=["start"])
 def start_message(message):
-    bot.send_message(message.chat.id, "Привет, я Бот Алеша")
+    bot.send_message(message.chat.id, "Hey, I'm your bot")
 
 
 @bot.message_handler(content_types=["text"])
